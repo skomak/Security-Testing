@@ -1,3 +1,7 @@
+"""
+Parse burp saved items (Proxy->Ctrl+a->Save items) to show unique headers with unique values
+"""
+
 import xml.etree.ElementTree as ET
 import base64
 from http.client import HTTPResponse
